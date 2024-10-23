@@ -391,6 +391,39 @@ h3{
         width: 30%;
     }
 }
+.portfolio-main{
+    font-size: 50px;
+    color: #00abf0;
+}
+
+.portfolio-main{
+    min-height :100vh;
+    background-color: #081b29;
+    padding:20px;
+    text-align: center;
+}
+.project {
+    width: 300px; /* adjust as per your image size */
+    overflow: hidden; /* hide overflow for smooth effect */
+    border-radius: 10px; /* optional: for rounded corners */
+  }
+  
+  .project-image {
+    width: 100%;
+    transition: transform 0.3s ease; /* smooth transition */
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 40px;
+    margin-top: 50px;
+  }
+  
+  .project-image:hover {
+    transform: scale(1.1); /* scale the image by 10% on hover */
+  }
+  
+
+
+
 .contact{
     min-height :100vh;
     background-color: #081b29;
