@@ -167,23 +167,17 @@ body{
 }
 .About{
     width: 100%;
-    padding: 30px;
+    padding:0 10%; 
     background-color: #081b29;
     
 }
 .about-text{
-
-    max-width: 559px;
-    padding-left: 65px;
+    max-width: 710px;
 
 }
 .main{
-    max-width: 740px;
-    max-width: 95%;
-    margin-left: 10px;
-    display: flex;
-    align-items:center;
-    justify-content: space-around;
+    max-width: 710px;
+   
 }
 .about-text h2{
     color:#00abf0;
@@ -207,36 +201,33 @@ body{
     font-size: 18px;
     margin-bottom: 45px;
 }
+.resumebar{
+    width: 100%;
+    padding:0 10%;
+}
+
 .resume-main{
-    max-width: 620px;
-    padding: 30px;
-    background-color: #081b29;
-    max-width: 100%;
-    margin-left: 70px;
-    display: flex;
-    padding-right: 30px;
+    max-width: 900px;
+
+
+
 
 }
 .resume-head{
-    padding-left: 10px;
+    color:#00abf0;
+    font-size: 75px;
+    text-transform: capitalize;
     margin-bottom: 20px;
-    color: #00abf0;
-    font-size: 50px;
+    
 
 }
 .resume-text{
-    align-items: center;
     color: #fcfc;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
-    max-width: 1012px;
-    margin-left: 20px;
     margin-bottom: 45px;
     background-color: #353b48;
-    margin: 50px auto;
-    color: #fff;
-    padding: 20px;
 }
 
 .resume-header{
@@ -255,6 +246,7 @@ display: inline-block;
 .education{
     margin-bottom: 30px;
 }
+
 .skill-box{
     margin-bottom: 30px;
 }
