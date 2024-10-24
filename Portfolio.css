@@ -8,6 +8,7 @@
 body{
     background: #081b29;
     color:#ededed ;
+
 }
 .header {
     position: fixed;
@@ -171,12 +172,13 @@ body{
     
 }
 .about-text{
-    width: 559px;
+
+    max-width: 559px;
     padding-left: 65px;
 
 }
 .main{
-    width: 740px;
+    max-width: 740px;
     max-width: 95%;
     margin-left: 10px;
     display: flex;
@@ -206,7 +208,7 @@ body{
     margin-bottom: 45px;
 }
 .resume-main{
-    width: 620px;
+    max-width: 620px;
     padding: 30px;
     background-color: #081b29;
     max-width: 100%;
@@ -228,11 +230,10 @@ body{
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
-    width: 1012px;
+    max-width: 1012px;
     margin-left: 20px;
     margin-bottom: 45px;
     background-color: #353b48;
-    width: 900px;
     margin: 50px auto;
     color: #fff;
     padding: 20px;
@@ -272,7 +273,7 @@ h3{
 /* Container for skills */
 .skill {
     background-color: #353b48;
-    width: 500px;
+    max-width: 500px;
     margin: 50px auto;
     color: #fff;
     padding: 20px;
