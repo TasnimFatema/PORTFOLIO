@@ -524,21 +524,7 @@ button:hover{
         grid-template-columns: 1fr  ;
      }
 }
-@media(min-width:251px){
-    .header{
-        grid-template-columns: 1fr 2fr;
-        padding: 4px;
 
-    }
-    .skill-box{
-        padding-left: 2px;
-    }
-    .resume-main{
-        padding-left: 2px;
-        padding-right: 200px;
-
-
-    }
 
     
-}
+
