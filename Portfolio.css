@@ -53,7 +53,7 @@ body{
 
 }
 .home-content{
-    max-width: 600px;
+    width: 600px;
 }
 .home-content h1{
     font-size: 56px;
@@ -172,11 +172,11 @@ body{
     
 }
 .about-text{
-    max-width: 710px;
+    width: 710px;
 
 }
 .main{
-    max-width: 710px;
+    width: 710px;
    
 }
 .about-text h2{
@@ -207,7 +207,7 @@ body{
 }
 
 .resume-main{
-    max-width: 900px;
+    width: 900px;
 
 
 
@@ -265,7 +265,7 @@ h3{
 /* Container for skills */
 .skill {
     background-color: #353b48;
-    max-width: 500px;
+    width: 500px;
     margin: 50px auto;
     color: #fff;
     padding: 20px;
@@ -424,7 +424,7 @@ h3{
     text-align: center;
 }
 .contact-container{
-    max-width: 800px;
+    width: 800px;
     margin: 0 auto;
 }
 .contact-container h2{
@@ -507,6 +507,38 @@ button:hover{
         padding: 20px;
     }
     .contact-wrapper{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr ;
      }
+}
+
+@media screen and(max-width:768px){
+    .home-content{
+        padding: 20px;
+
+    }
+    
+    .content-container{
+        padding: 20px;
+    }
+    .contact-wrapper{
+        grid-template-columns: 1fr  ;
+     }
+}
+@media(min-width:251px){
+    .header{
+        grid-template-columns: 1fr 2fr;
+        padding: 4px;
+
+    }
+    .skill-box{
+        padding-left: 2px;
+    }
+    .resume-main{
+        padding-left: 2px;
+        padding-right: 200px;
+
+
+    }
+
+    
 }
