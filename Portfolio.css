@@ -511,4 +511,7 @@ button:hover{
     .contact-wrapper{
         grid-template-columns: 1fr;
      }
+     .main-wrapper{
+        
+     }
 }
